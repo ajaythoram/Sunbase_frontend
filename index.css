@@ -1,0 +1,97 @@
+
+/* css for header  */
+#top{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    border-bottom: 2px solid gray;
+    z-index: 1000;
+    align-items: center;
+}
+#top h3,button {
+    margin: 1rem 2rem;
+    cursor: pointer;
+}
+
+
+#save{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(100, 170, 234);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+ /* for side bar */
+#side-bar{
+    background-color: #f7f7f7;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border-right: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0.5rem;
+    position: fixed;
+    height: calc(100%-40px);
+    overflow-y: auto;
+    z-index: 1000;
+    top: 60px;
+    width: 15vw;
+    height: 100vh;
+    cursor: pointer;
+}
+.add-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+#form-container{
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.drag{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.form-items div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.form-items input,textarea{
+    width: 80%;
+}
+#home{
+    display: flex;
+    justify-content: center;
+}
+#side-bar button:hover{
+    border: 3px solid black;
+    
+}
+.form-btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+.form-btn:hover{
+    background-color: rgb(69, 150, 236); 
+    color: white;
+}
